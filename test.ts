@@ -3,4 +3,4 @@ const a = {
     b: 1234
 }
 
-const c
+const c 123
