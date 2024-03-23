@@ -1,6 +1,6 @@
-const a = {
+const a: any = {
     a: 123,
     b: 1234
-}
+};
 
-const c 123123134123
+console.log(a);
