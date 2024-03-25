@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["src/main.ts"],"sourcesContent":["function install(Vue) {\n    // Vue.component(YBButton)\n}\nwindow.alert(123);\nexport default {\n    install\n};\n"],"names":[],"mappings":";;AAAA,SAAS,OAAO,CAAC,GAAG,EAAE;AACtB;AACA,CAAC;AACD,MAAM,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;AAClB,WAAe;AACf,IAAI,OAAO;AACX,CAAC;;;;"}

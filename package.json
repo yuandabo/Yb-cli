@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "commit": "git-cz",
-    "lint:lint-staged": "lint-staged"
+    "lint:lint-staged": "lint-staged",
+    "build": "rollup --config rollup.config.pro.js",
+    "dev": "rollup --config rollup.config.dev.js -w"
   },
   "repositor`y": {
     "type": "git",
@@ -20,6 +23,10 @@
   },
   "homepage": "https://github.com/yuandabo/Yb-cli#readme",
   "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^7.3.1",
     "commitizen": "^4.3.0",
@@ -34,6 +41,8 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
+    "rollup": "^4.13.0",
+    "rollup-plugin-serve": "^1.1.1",
     "typescript": "^5.4.3"
   },
   "lint-staged": {
